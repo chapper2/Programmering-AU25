@@ -7,7 +7,7 @@ def hejThomas():
         i+=1
     
     
-hejThomas()
+#hejThomas()
 
 
 def gætThomasAlder():
@@ -17,9 +17,14 @@ def gætThomasAlder():
     while(gæt != alderen):
         if(gæt < alderen):
             print('Dit gæt er for lavt, prøv igen')
+            print('')
             gæt = input('skriv dit næste gæt')
         elif(gæt > alderen):
             print('Dit gæt er for højt, prøv igen')
+            print('')
             gæt = input('skriv dit næste gæt')
     else:
         print('Tillykke du har gættet Thomas alder!')
+        
+
+gætThomasAlder()

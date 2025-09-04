@@ -54,5 +54,19 @@ def eksempel():
 #eksempel()
 
 #Eksempel på at printe en liste sorteret
-print(sorted([7,1,0]))
-print(sorted(['Benny','Anders', 'Abe']))
+#print(sorted([7,1,0]))
+#print(sorted(['Benny','Anders', 'Abe']))
+
+def pengeTilRejsen():
+    print('Indskriv rejsens pris')
+    rejsePris = int(input())
+    gaveBeløb = 0
+    print("Hvor meget vil du give i gave")
+    modtagetPenge = int(input())
+    while gaveBeløb < rejsePris:
+        print("Du er en fattigrøv")
+        print("Hvor meget vil du give i gave")
+        modtagetPenge = int(input())
+    print("Du har penge til at rejse")
+
+pengeTilRejsen()   

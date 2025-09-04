@@ -37,7 +37,7 @@ def antalOrd(tekst):
         if tegn == '':
             antal += 1
         antal += 1
-    print('Der var: ' + str(antal) + ' bogstaver')
+    print('Der var:'+ antal + 'bogstaver')
     
     
 #antalOrd('Professionelt')

@@ -1,9 +1,10 @@
 #Hej Thomas
 
-def hejThomas(streng):
+def hejThomas():
     i = 0
-    while i < 100:
+    while i < 5:
         print('Hej Thomas')
         i+=1
     
     
+hejThomas

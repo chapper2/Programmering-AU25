@@ -27,4 +27,17 @@ def gætThomasAlder():
         print('Tillykke du har gættet Thomas alder!')
         
 
-gætThomasAlder()
+#gætThomasAlder()
+
+
+
+def antalOrd(tekst):
+    antal = 0
+    for tegn in tekst:
+        if tegn == '':
+            antal += 1
+        antal += 1
+    print('Der var:'+ antal + 'bogstaver')
+    
+    
+antalOrd('Kage')

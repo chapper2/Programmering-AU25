@@ -40,4 +40,19 @@ def antalOrd(tekst):
     print('Der var: ' + str(antal) + ' bogstaver')
     
     
-antalOrd('Professionelt')
+#antalOrd('Professionelt')
+
+
+def eksempel():
+    print('indtast antal km: ')
+    antalKm = int(input())
+    
+    pris = antalKm*20+50
+    
+    print(pris)
+
+#eksempel()
+
+#Eksempel på at printe en liste sorteret
+print(sorted([7,1,0]))
+print(sorted(['Benny','Anders', 'Abe']))

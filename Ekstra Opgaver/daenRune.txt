@@ -1,0 +1,4 @@
+('bord', 'table')
+('hvid', 'white')
+('bold', 'ball')
+('hest', 'horse')
